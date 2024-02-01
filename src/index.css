@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "Hind", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  text-decoration: none;
+
+  --green-100: #4ea59d;
+  --green-200: #00b4a9;
+  --green-300: #00737e;
+  --white: #ffffff;
+  --gray-25: #f8f9fa;
+  --gray-100: #212529;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
