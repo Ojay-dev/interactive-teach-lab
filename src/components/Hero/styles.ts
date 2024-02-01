@@ -11,12 +11,13 @@ export const HeroSection = styled.section<{ bgImage: string }>`
 `;
 
 export const HeroContent = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
   width: 80%;
   margin: 0 auto;
+  padding: 97px 0 42px;
 
   @media (min-width: 1024px) {
     max-width: 70vw;
