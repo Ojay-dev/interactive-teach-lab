@@ -33,17 +33,26 @@ export const SQuestion = styled.div`
   padding: 16px;
   border: 2px solid var(--white);
 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 27px;
   color: var(--white);
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
 `;
 
 export const SAnswer = styled(SQuestion)`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   background: #abc6c673;
-  padding-left: 48px;
+  padding-left: 32px;
   border-top: none;
   margin-bottom: 20px;
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+    padding-left: 48px;
+  }
 `;
