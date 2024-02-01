@@ -5,7 +5,7 @@ export const ScheduleSection = styled.section`
   padding: 120px 24px 80px;
 
   @media (min-width: 1024px) {
-    padding: 200px 10% 150px;
+    padding: 160px 10% 150px;
   }
 `;
 
