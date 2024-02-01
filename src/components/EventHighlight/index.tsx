@@ -1,7 +1,7 @@
 import React from "react";
 import { EventHighlightContent, EventHighlightSection, EventHighlightText } from "./styles";
 import bgImage from "@/assets/image/image2024-01-20.jpeg";
-import { CheckIcon } from "@/assets/svg";
+// import { CheckIcon } from "@/assets/svg";
 
 const EventHighlightComponent: React.FC = () => {
   return (
@@ -12,19 +12,64 @@ const EventHighlightComponent: React.FC = () => {
 
           <ul>
             <li>
-              <CheckIcon /> Expert-led sessions.
+              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.56641 18.0494L11.8181 23.301L24.9472 10.1719"
+                  stroke="#4EA59D"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Expert-led sessions.
             </li>
             <li>
-              <CheckIcon /> Interactive discussions and Q/A Sessions.
+              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.56641 18.0494L11.8181 23.301L24.9472 10.1719"
+                  stroke="#4EA59D"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Interactive discussions and Q/A Sessions.
             </li>
             <li>
-              <CheckIcon /> Networking Opportunities
+              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.56641 18.0494L11.8181 23.301L24.9472 10.1719"
+                  stroke="#4EA59D"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Networking Opportunities
             </li>
             <li>
-              <CheckIcon /> Feedback and assessment.
+              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.56641 18.0494L11.8181 23.301L24.9472 10.1719"
+                  stroke="#4EA59D"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Feedback and assessment.
             </li>
             <li>
-              <CheckIcon /> Collaborative activities.
+              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.56641 18.0494L11.8181 23.301L24.9472 10.1719"
+                  stroke="#4EA59D"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Collaborative activities.
             </li>
           </ul>
         </EventHighlightText>
