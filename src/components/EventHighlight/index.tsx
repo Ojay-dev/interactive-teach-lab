@@ -21,7 +21,7 @@ const EventHighlightComponent: React.FC = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Expert-led sessions.
+              <span>Expert-led sessions</span>
             </li>
             <li>
               <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@ const EventHighlightComponent: React.FC = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Interactive discussions and Q/A Sessions.
+              <span>Interactive discussions and Q/A Sessions</span>
             </li>
             <li>
               <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +45,7 @@ const EventHighlightComponent: React.FC = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Networking Opportunities
+              <span>Networking Opportunities</span>
             </li>
             <li>
               <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ const EventHighlightComponent: React.FC = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Feedback and assessment.
+              <span>Feedback and assessment</span>
             </li>
             <li>
               <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@ const EventHighlightComponent: React.FC = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              Collaborative activities.
+              <span>Collaborative activities</span>
             </li>
           </ul>
         </EventHighlightText>

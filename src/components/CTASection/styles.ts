@@ -26,6 +26,7 @@ export const CTAContent = styled.div`
     line-height: 110%;
     color: var(--white);
     text-align: center;
+    line-height: 40px;
 
     @media (min-width: 1024px) {
       font-size: 48px;
@@ -40,6 +41,7 @@ export const CTAContent = styled.div`
     text-align: center;
     max-width: 600px;
     margin: 16px auto 0;
+    line-height: 24px;
 
     @media (min-width: 768px) {
       font-size: 20px;
@@ -60,4 +62,8 @@ export const RegisterLink = styled.a`
   padding: 16px 30px;
   border-radius: 8px;
   margin-top: 32px;
+
+  &:hover {
+    color: var(--white);
+  }
 `;

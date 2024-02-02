@@ -45,7 +45,7 @@ export const ScheduleCard = styled.div<{ icon?: boolean }>`
   h3 {
     font-size: 20px;
     font-weight: 400;
-    line-height: 110%;
+    line-height: 24px;
     color: var(--white);
   }
 

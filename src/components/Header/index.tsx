@@ -45,7 +45,11 @@ const Header = () => {
           </li>
         </ul>
 
-        <RegisterLink href="#" target="_blank" rel="noopener noreferrer">
+        <RegisterLink
+          href="https://docs.google.com/forms/d/e/1FAIpQLScZ62eqkOCaO52_ZM6S_qdcgBwT_FLdbjs-gjY-Uv5VKc1jsw/viewform?vc=0&c=0&w=1&flr=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Register
         </RegisterLink>
       </NavContainer>
@@ -94,7 +98,11 @@ const Header = () => {
             </li>
           </ul>
 
-          <RegisterLink href="#" target="_blank" rel="noopener noreferrer">
+          <RegisterLink
+            href="https://docs.google.com/forms/d/e/1FAIpQLScZ62eqkOCaO52_ZM6S_qdcgBwT_FLdbjs-gjY-Uv5VKc1jsw/viewform?vc=0&c=0&w=1&flr=0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Register
           </RegisterLink>
         </NavContainerMobile>

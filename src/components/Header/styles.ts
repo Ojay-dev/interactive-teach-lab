@@ -84,6 +84,10 @@ export const RegisterLink = styled.a`
   color: var(--white);
   padding: 12px 30px;
   border-radius: 8px;
+
+  &:hover {
+    color: var(--white);
+  }
 `;
 
 export const MenuButton = styled.button`

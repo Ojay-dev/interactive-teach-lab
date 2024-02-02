@@ -50,7 +50,7 @@ const HeroComponent: React.FC = () => {
                 <span>Date :</span> March 28, 2024
               </HeroEventInfo>
               <HeroEventInfo>
-                <span>Location : </span>Graves School Of Business, 104 Audithorium
+                <span>Location : </span>Graves School Of Business, 104 Auditorium
               </HeroEventInfo>
               <HeroEventInfo>
                 <span>Time : </span>11am - 2pm
