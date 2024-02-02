@@ -5,7 +5,7 @@ import useWindowWidth from "@/hooks/useWindowWidth";
 
 const scheduleItems = [
   { time: "", title: "" }, // empty card
-  { time: "11:00am - 11:30 pm", title: "Welcome and Opening Remarks" },
+  { time: "11:00am - 11:30am", title: "Welcome and Opening Remarks" },
   { time: "", title: "" }, // empty card
   { time: "11:30am - Noon", title: "Lab 1" },
   { time: "Noon - 1:00pm", title: "Lunch Break" },
@@ -20,7 +20,7 @@ const scheduleItems = [
 
 const scheduleItemsMobile = [
   { time: "", title: "" }, // empty card
-  { time: "11:00am - 11:30 pm", title: "Welcome and Opening Remarks" },
+  { time: "11:00am - 11:30am", title: "Welcome and Opening Remarks" },
   { time: "11:30am - Noon", title: "Lab 1" },
   { time: "", title: "" }, // empty card
   { time: "", title: "" }, // empty card
