@@ -44,7 +44,7 @@ const sampleQuestions = [
 
 const FAQsComponent: React.FC = () => {
   return (
-    <FAQSection id="Schedule">
+    <FAQSection id="FAQS">
       <FAQContent>
         <h2>Frequently Asked Questions</h2>
 

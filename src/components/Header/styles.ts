@@ -21,11 +21,13 @@ export const HeaderContainer = styled.header`
 export const NavContainer = styled.nav`
   display: none;
   align-items: center;
+  justify-content: center;
   column-gap: 48px;
   ul {
     display: flex;
     list-style: none;
     margin-left: auto;
+    margin-bottom: 0;
     align-items: center;
 
     li {
