@@ -17,28 +17,19 @@ const sampleQuestions = [
   },
   {
     question: "Q: Is there a fee for attending the event?",
-    answer:
-      "A: The event is free for educators and future teachers. However, there might be optional premium workshops or materials available for purchase. Check our website for detailed information.",
-  },
-  {
-    question: "Q: Can I access session recordings after the event?",
-    answer:
-      "A: Yes, all registered participants will have access to session recordings for a limited time after the event. This allows you to revisit valuable content or catch up on sessions you may have missed.",
+    answer: "A: The event is free for educators and future teachers.",
   },
   {
     question: "Q: Are there networking opportunities for attendees?",
-    answer:
-      "A: Absolutely! We have dedicated networking sessions and virtual spaces where attendees can connect, share ideas, and build a community of like-minded educators and professionals.",
+    answer: "A: Absolutely! Attendees can connect.",
   },
   {
-    question: "Q: What technology requirements do I need for the virtual event?",
-    answer:
-      "A: You'll need a stable internet connection, a device (computer, tablet, or smartphone), and a compatible browser. Make sure to check our technical requirements page for any specific software or hardware recommendations.",
+    question: "Q: Will lunch be provided?",
+    answer: "A: Yes, a free lunch will be provided for all registered participants.",
   },
   {
-    question: "Q: Can I receive a certificate of participation after attending the INTERACTIVE TEACH LAB event?",
-    answer:
-      "A: Yes, we will provide certificates of participation for all attendees. These certificates can be downloaded from your profile on our website after the event concludes.",
+    question: "Q: Will parking be available?",
+    answer: "A: All participants are responsible for their parking at the event.",
   },
 ];
 
