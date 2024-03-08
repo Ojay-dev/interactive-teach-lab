@@ -32,3 +32,45 @@ export const SpeakersContent = styled.div`
     margin-top: 120px;
   }
 `;
+
+export const SpeakersColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 64px;
+  row-gap: 60px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+`;
+
+export const SpeakerContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h3 {
+    font-family: "Hind", sans-serif;
+    font-size: 24px;
+    line-height: 110%;
+    color: #212529;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: 8px;
+  }
+`;
